@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zemoji</title>
+  <script defer src="zemoji.js"></script>
+  <style>
+    .flex{
+      display:flex;
+      flex-wrap: wrap;
+    }
+
+    .card{
+      border:1px solid #ddd;
+      margin:8px;
+    }
+    .card-header{
+      font-size:16px;
+      text-align:center;
+      background:#ddd;
+      padding:4px;
+    }
+    .card-body{
+      padding:8px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Zemoji v1.0.0</h1>
+  <h2>Usage:</h2>
+  &lt;span class="zemoji grin 50px" &gt;&lt;/span&gt;<br><br>
+  <div class="flex">
+    <div class="card">
+      <div class="card-header">grin</div>
+      <div class="card-body">
+        <span class="zemoji grin 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">grin2</div>
+      <div class="card-body">
+        <span class="zemoji grin2 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">grin3</div>
+      <div class="card-body">
+        <span class="zemoji grin3 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">grin4</div>
+      <div class="card-body">
+        <span class="zemoji grin4 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">grin5</div>
+      <div class="card-body">
+        <span class="zemoji grin5 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">grin6</div>
+      <div class="card-body">
+        <span class="zemoji grin6 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">rofl</div>
+      <div class="card-body">
+        <span class="zemoji rofl 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">toj</div>
+      <div class="card-body">
+        <span class="zemoji toj 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">smile</div>
+      <div class="card-body">
+        <span class="zemoji smile 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">smile2</div>
+      <div class="card-body">
+        <span class="zemoji smile2 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">smile3</div>
+      <div class="card-body">
+        <span class="zemoji smile3 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">wink</div>
+      <div class="card-body">
+        <span class="zemoji wink 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">halo</div>
+      <div class="card-body">
+        <span class="zemoji halo 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">hearts</div>
+      <div class="card-body">
+        <span class="zemoji hearts 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">heart-eyes</div>
+      <div class="card-body">
+        <span class="zemoji heart-eyes 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">roll-eyes</div>
+      <div class="card-body">
+        <span class="zemoji roll-eyes 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">money-eyes</div>
+      <div class="card-body">
+        <span class="zemoji money-eyes 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">star-eyes</div>
+      <div class="card-body">
+        <span class="zemoji star-eyes 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">kiss</div>
+      <div class="card-body">
+        <span class="zemoji kiss 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">kiss2</div>
+      <div class="card-body">
+        <span class="zemoji kiss2 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">kiss3</div>
+      <div class="card-body">
+        <span class="zemoji kiss3 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">kiss4</div>
+      <div class="card-body">
+        <span class="zemoji kiss4 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">tongue</div>
+      <div class="card-body">
+        <span class="zemoji tongue 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">tongue2</div>
+      <div class="card-body">
+        <span class="zemoji tongue2 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">tongue3</div>
+      <div class="card-body">
+        <span class="zemoji tongue3 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">tongue4</div>
+      <div class="card-body">
+        <span class="zemoji tongue4 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">tongue5</div>
+      <div class="card-body">
+        <span class="zemoji tongue5 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">hug</div>
+      <div class="card-body">
+        <span class="zemoji hug 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">cover-mouth</div>
+      <div class="card-body">
+        <span class="zemoji cover-mouth 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">shushing</div>
+      <div class="card-body">
+        <span class="zemoji shushing 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">thinking</div>
+      <div class="card-body">
+        <span class="zemoji thinking 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">zipper</div>
+      <div class="card-body">
+        <span class="zemoji zipper 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">eyebrow</div>
+      <div class="card-body">
+        <span class="zemoji eyebrow 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">flat</div>
+      <div class="card-body">
+        <span class="zemoji flat 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">flat2</div>
+      <div class="card-body">
+        <span class="zemoji flat2 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">no-mouth</div>
+      <div class="card-body">
+        <span class="zemoji no-mouth 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">smirking</div>
+      <div class="card-body">
+        <span class="zemoji smirking 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">unamused</div>
+      <div class="card-body">
+        <span class="zemoji unamused 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">grimacing</div>
+      <div class="card-body">
+        <span class="zemoji grimacing 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">long-nose</div>
+      <div class="card-body">
+        <span class="zemoji long-nose 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">sleepy</div>
+      <div class="card-body">
+        <span class="zemoji sleepy 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">sleepy2</div>
+      <div class="card-body">
+        <span class="zemoji sleepy2 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">drool</div>
+      <div class="card-body">
+        <span class="zemoji drool 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">mask</div>
+      <div class="card-body">
+        <span class="zemoji mask 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">thermometer</div>
+      <div class="card-body">
+        <span class="zemoji thermometer 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">bandage</div>
+      <div class="card-body">
+        <span class="zemoji bandage 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">vomit</div>
+      <div class="card-body">
+        <span class="zemoji vomit 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">vomit2</div>
+      <div class="card-body">
+        <span class="zemoji vomit2 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">sneeze</div>
+      <div class="card-body">
+        <span class="zemoji sneeze 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">hot</div>
+      <div class="card-body">
+        <span class="zemoji hot 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">cold</div>
+      <div class="card-body">
+        <span class="zemoji cold 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">woozy</div>
+      <div class="card-body">
+        <span class="zemoji woozy 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">dizzy</div>
+      <div class="card-body">
+        <span class="zemoji dizzy 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">explode</div>
+      <div class="card-body">
+        <span class="zemoji explode 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">cowboy</div>
+      <div class="card-body">
+        <span class="zemoji cowboy 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">party</div>
+      <div class="card-body">
+        <span class="zemoji party 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">sunglasses</div>
+      <div class="card-body">
+        <span class="zemoji sunglasses 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">eyeglasses</div>
+      <div class="card-body">
+        <span class="zemoji eyeglasses 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">monocle</div>
+      <div class="card-body">
+        <span class="zemoji monocle 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">confused</div>
+      <div class="card-body">
+        <span class="zemoji confused 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">worried</div>
+      <div class="card-body">
+        <span class="zemoji worried 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">frown</div>
+      <div class="card-body">
+        <span class="zemoji frown 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">frown2</div>
+      <div class="card-body">
+        <span class="zemoji frown2 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">frown3</div>
+      <div class="card-body">
+        <span class="zemoji frown3 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">frown4</div>
+      <div class="card-body">
+        <span class="zemoji frown4 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">wow</div>
+      <div class="card-body">
+        <span class="zemoji wow 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">wow2</div>
+      <div class="card-body">
+        <span class="zemoji wow2 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">wow3</div>
+      <div class="card-body">
+        <span class="zemoji wow3 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">flushed</div>
+      <div class="card-body">
+        <span class="zemoji flushed 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">pleading</div>
+      <div class="card-body">
+        <span class="zemoji pleading 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">anguish</div>
+      <div class="card-body">
+        <span class="zemoji anguish 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">fearful</div>
+      <div class="card-body">
+        <span class="zemoji fearful 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">anxious</div>
+      <div class="card-body">
+        <span class="zemoji anxious 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">sad</div>
+      <div class="card-body">
+        <span class="zemoji sad 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">cry</div>
+      <div class="card-body">
+        <span class="zemoji cry 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">cry2</div>
+      <div class="card-body">
+        <span class="zemoji cry2 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">scream</div>
+      <div class="card-body">
+        <span class="zemoji scream 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">confounded</div>
+      <div class="card-body">
+        <span class="zemoji confounded 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">preserving</div>
+      <div class="card-body">
+        <span class="zemoji preserving 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">disappointed</div>
+      <div class="card-body">
+        <span class="zemoji disappointed 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">downcast</div>
+      <div class="card-body">
+        <span class="zemoji downcast 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">weary</div>
+      <div class="card-body">
+        <span class="zemoji weary 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">tired</div>
+      <div class="card-body">
+        <span class="zemoji tired 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">yawning</div>
+      <div class="card-body">
+        <span class="zemoji yawning 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">nose-steam</div>
+      <div class="card-body">
+        <span class="zemoji nose-steam 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">angry</div>
+      <div class="card-body">
+        <span class="zemoji angry 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">angry2</div>
+      <div class="card-body">
+        <span class="zemoji angry2 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">bad-mouth</div>
+      <div class="card-body">
+        <span class="zemoji bad-mouth 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">devil</div>
+      <div class="card-body">
+        <span class="zemoji devil 50px"></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">devil2</div>
+      <div class="card-body">
+        <span class="zemoji devil2 50px"></span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
