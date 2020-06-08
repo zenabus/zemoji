@@ -1,2 +1,2 @@
-# Zemoji v1.0.0
+# Zemoji [in progress]
 Open-source emoji-based web icons
